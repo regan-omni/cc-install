@@ -7,7 +7,7 @@ Simply create a code block and drop in the entirety of the cc-form.html file
 # Back-end Setup
 1: Add car-commander.dev.js, car-commander.less, & remove-padding.js (add this file unless you want to manually style out the paddding and margin of the cc form yourself)  
 2: Embed this script provided by autolink in a test enviroment  
-![autolink script](https://github.com/omnicommander-org/cc-install/blob/main/autolink-script.png)  
+![autolink script](https://github.com/omnicommander-org/cc-install/blob/main/autolink-script-portal.png)  
 3: Inspect the script in your test enviroment and search for this jQuery call:  
 ![autolink script inspect](https://github.com/omnicommander-org/cc-install/blob/main/autolink-script-inspect.png)  
 4: Copy the relative we just found (/hartfordpolice/cbs/makesModels)  
