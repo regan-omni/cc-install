@@ -247,6 +247,6 @@ function submitSearch() {
   // if no errors open car commander
   if (hasErrors === false) {
     //window.open('https://autolink.io/vsufcu/cbs/search/'+ makeInput.value + '/' + modelInput.value + '/' + conditionInput.value + '/' + zipInput.value , "_self");
-    window.open("https://www.vsufcu.org/car-commander#CarBuyingServicePage=/search;condition=" + conditionInput.value + ';makes=' + makeInput.value + ';model=' + modelInput.value + ';zip=' + zipInput.value, "_self");
+    window.open("https://www.vsufcu.org/car-commander#CarBuyingServicePage=/search;condition=" + conditionInput.value + ';makes=' + makeInput.value + ';models=' + modelInput.value + ';zip=' + zipInput.value, "_self");
   }
 }
